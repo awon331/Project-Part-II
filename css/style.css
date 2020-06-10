@@ -1,0 +1,173 @@
+#wrapper{
+  width: 900px;
+  margin: auto;
+  background-color: lightGrey;
+}
+
+.logo{
+  width: 50px;
+  margin: 12px 0 0 10px;
+}
+
+header h3{
+  margin: 10px 0 0;
+  display: inline-block;
+  width: 100px;
+}
+
+nav{
+  float: right;
+}
+
+nav ul{
+  margin: 10px 10px 0;
+  padding: 15px 0;
+  background-color: #696969;
+}
+
+nav li{
+  display: inline;
+  margin: 0 25px;
+  font-size: 20px;
+}
+
+nav li a{
+  text-decoration: none;
+  color: white;
+}
+
+#main{
+  display: inline-block;
+  margin: 20px 0;
+  width: 900px;
+  border-top: solid;
+  border-color: darkblue;
+}
+
+#intro{
+  display: inline-block;
+  width: 360px;
+  margin: 10px;
+}
+
+h1{
+  font-size: 50px;
+  margin: 0;
+}
+
+aside{
+  display: inline-block;
+  float: right;
+  margin: 10px;
+  width: 480px;
+  height: 300px;
+}
+
+#enrol{
+  background-color: grey;
+  border: none;
+  border-radius: 10px;
+  font-size: 40px;
+  margin: 0 0 10px 130px;
+}
+
+#enrol a{
+  color: white;
+  text-decoration: none;
+}
+
+iframe{
+  height: 250px;
+  width: 450px;
+}
+
+#cover{
+  margin: 10px;
+  width: 460px;
+}
+
+#gallery{
+  padding: 20px 0;
+  border-top: solid;
+  border-bottom: solid;
+  border-color: darkblue;
+}
+
+#gallery h2{
+  margin: 0 30px;
+  font-size: 40px;
+}
+
+#gallery img{
+  height: 200px;
+  padding-left: 12px;
+  padding-top: 10px;
+}
+
+.image{
+  width: 280px;
+  display: inline-block;
+}
+
+.search{
+  padding-top: 20px;
+}
+
+.search h2{
+  font-size: 40px;
+  padding-left: 30px;
+  display: inline;
+}
+
+.search p{
+  display: inline-block;
+  float: right;
+  padding-right: 40px;
+}
+
+#programsList{
+  display: inline-block;
+  padding: 0 26px 0 26px;
+}
+
+.program{
+  display: inline-block;
+  width: 400px;
+  text-align: left;
+  background-color: white;
+  margin: 10px;
+}
+
+.program h3, h4, p{
+  padding-left: 10px;
+}
+
+.location{
+  width: 400px;
+}
+
+.hidden{
+  display: none;
+}
+
+footer{
+  background-color: #696969;
+  border-top: solid;
+  border-color: darkBlue;
+}
+
+#contact{
+  display: inline-block;
+  color: white;
+  margin: 0 20px;
+}
+
+#contact p{
+  margin: 10px 0;
+}
+
+#social{
+  float: right;
+  margin: 0 10px;
+  color: white;
+}
