@@ -134,7 +134,7 @@ $(document).ready(function(){
   	}
 
     /* Toggle show more */
-    $("#" + program.show_more).on("click", displayProgram);
+    $("#berlinMore").on("click", displayProgram);
     $("#mumbaiMore").on("click", displayProgram);
     $("#kyotoMore").on("click", displayProgram);
     $("#nyMore").on("click", displayProgram);
