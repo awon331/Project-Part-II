@@ -193,6 +193,4 @@ $(document).ready(function(){
   		displayPrograms(matches);
   }
   /* END OF SEARCH FEATURE */
-
-
 });
