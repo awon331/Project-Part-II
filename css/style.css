@@ -99,14 +99,21 @@ iframe{
 }
 
 #gallery img{
-  height: 200px;
-  padding-left: 12px;
-  padding-top: 10px;
+  height: 400px;
+  margin-left: 150px;
+  margin-top: 10px;
+  display: inline-block;
 }
 
-.image{
-  width: 280px;
-  display: inline-block;
+#previous{
+  margin-left: 150px;
+  margin-top: 20px;
+}
+
+#next{
+  float: right;
+  margin-right: 150px;
+  margin-top: 20px;
 }
 
 .search{

@@ -85,6 +85,8 @@ $(document).ready(function(){
     show_less: "limaLess"
   	}
   ];
+
+  const IMAGES = ["img0", "img1", "img2", "img3", "img4", "img5"];
   /* Dynamic Display of HTML */
 
   /* Creates the HTML required for display each program information */
@@ -193,4 +195,31 @@ $(document).ready(function(){
   		displayPrograms(matches);
   }
   /* END OF SEARCH FEATURE */
+
+  /* EXTRA JAVASCRIPT FEATURE: SLIDESHOW */
+  $("#previous").on("click", previousImage);
+  let activeImage = 0;
+
+  function previousImage() {
+    activeImage -= 1;
+    if (activeImage < 0) {
+        activeImage = 0;
+    } else {
+      $("#img" + (activeImage + 1)).addClass("hidden");
+      $("#img" + activeImage).removeClass("hidden");
+    }
+  }
+
+  $("#next").on("click", nextImage);
+
+  function nextImage() {
+    activeImage += 1;
+    if (activeImage > IMAGES.length - 1) {
+        activeImage = IMAGES.length - 1;
+    } else {
+      $("#img" + (activeImage - 1)).addClass("hidden");
+      $("#img" + activeImage).removeClass("hidden");
+    }
+  }
+
 });
